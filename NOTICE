@@ -1,0 +1,10 @@
+dsh-settings-sync
+=================
+
+Based on dsh-config-sync by liangfengqi (MIT):
+https://github.com/bxzfxl/dsh-config-sync
+
+Original copyright (c) liangfengqi, licensed under the MIT License (see LICENSE).
+Modified in 2026 for DeepSeek Harness: GitHub onboarding, private-repo guard,
+path templating, local plugin source transfer, history/conflict handling,
+auto-sync, tool and /sync command.

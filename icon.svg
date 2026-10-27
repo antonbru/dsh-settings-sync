@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Settings sync">
+  <defs>
+    <linearGradient id="ss-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f6bff"/>
+      <stop offset="1" stop-color="#17b3a3"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#ss-bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 54a26 26 0 0 1 45-12"/>
+    <path d="M88 30v14H74"/>
+    <path d="M88 74a26 26 0 0 1-45 12"/>
+    <path d="M40 98V84h14"/>
+  </g>
+  <circle cx="64" cy="64" r="7" fill="#ffffff"/>
+</svg>

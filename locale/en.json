@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Settings Sync",
+    "description": "Settings, MCP and installed plugins through a private GitHub repository, like VS Code Settings Sync."
+  }
+}

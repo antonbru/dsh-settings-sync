@@ -1,0 +1,5 @@
+# dsh-settings-sync: одна строка плагина в таблице профиля.
+- insert:
+    - id: settings-sync
+      name: dsh-settings-sync
+      config: {}

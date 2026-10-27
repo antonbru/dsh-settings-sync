@@ -1,0 +1,46 @@
+{
+  "name": "dsh-settings-sync",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Sync DSH settings and installed plugins through a private GitHub repository, like VS Code Settings Sync.",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client/bundle.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib/index.js",
+    "client/bundle.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.2.1-rc.2"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonbru/dsh-settings-sync"
+  },
+  "homepage": "https://github.com/antonbru/dsh-settings-sync#readme",
+  "bugs": {
+    "url": "https://github.com/antonbru/dsh-settings-sync/issues"
+  }
+}
